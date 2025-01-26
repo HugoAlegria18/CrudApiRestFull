@@ -1,0 +1,53 @@
+# Entornos generales
+.DS_Store
+Thumbs.db
+
+# Archivos de compilación y salida
+bin/
+obj/
+[Bb]uild/
+[Bb]uilds/
+!src/**/bin/
+!src/**/obj/
+
+# Paquetes y dependencias
+packages/
+*.nupkg
+*.snupkg
+*.nuget.props
+*.nuget.targets
+project.lock.json
+project.fragment.lock.json
+
+# Configuración del IDE (Visual Studio y Rider)
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Configuración de Visual Studio Code
+.vscode/
+.vs/
+.vs/**
+
+# Archivos de seguridad y configuración
+secrets.json
+*.pfx
+*.cer
+*.p12
+*.config
+*.key
+
+# Archivos generados automáticamente
+*.log
+*.sql
+*.sqlite
+*.db
+debug/
+release/
+
+# Configuración de dotnet
+.env
+*.sln.ide
